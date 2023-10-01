@@ -1,0 +1,97 @@
+/* css reset  */
+body {
+    font-family: "Baloo Bhai", cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url(img/bg2.jpg);
+    background-size: 100%;
+    color: white;
+  }
+  .left {
+    /* border: solid red 2px; */
+    display: inline-block;
+    position: absolute;
+    left: 58px;
+    top: 20px;
+  }
+  .left img {
+    width: 67px;
+    filter: invert(100%);
+    margin-left: 37px;
+  }
+  .left div {
+    text-align: center;
+    line-height: 6px;
+    font-size: 25px;
+  }
+  .mid {
+    /* border: solid green 2px; */
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+  }
+  .right {
+    /* border: solid yellow 2px; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 41px;
+  }
+  .navbar {
+    display: inline-block;
+  }
+  .navbar li {
+    display: inline-block;
+    list-style: none;
+    font-size: 25px;
+  }
+  .navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 34px 23px;
+  }
+  .navbar li a:hover,
+  .navbar li a.active {
+    text-decoration: underline;
+    color: rgb(186, 184, 135);
+  }
+  .button {
+    font-family: "Baloo Bhai", cursive;
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: solid grey 2px;
+    border-radius: 10px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: rgb(78, 75, 75);
+  }
+  .container {
+    border: solid white 2px;
+    margin: 108px 76px;
+    padding: 45px 75px;
+    width: 30%;
+    border-radius: 30px;
+  }
+  .form-group input {
+    font-family: "Baloo Bhai", cursive;
+    text-align: center;
+    display: block;
+    width: 326px;
+    padding: 6px 2px;
+    margin: 17px auto;
+    border-radius: 18px;
+    font-size: 19px;
+  }
+  .container {
+    text-align: center;
+  }
+  .container button {
+    font-size: 17px;
+    display: block;
+    width: 113px;
+    margin: 26px auto;
+  }
